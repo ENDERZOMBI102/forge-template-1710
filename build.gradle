@@ -1,0 +1,29 @@
+plugins {
+	id 'java'
+	id 'net.minecraftforge.gradle.forge'
+}
+
+group 'com.enderzombi102'
+version '1.0.0'
+
+minecraft {
+	version = '1.7.10-10.13.4.1614-1.7.10'
+	runDir = 'run'
+
+	mappings = 'snapshot_20140925'
+}
+
+repositories {
+	mavenCentral()
+	maven {
+		name = 'sonatype'
+		url = 'https://oss.sonatype.org/content/repositories/snapshots/'
+	}
+	maven {
+		name = 'forge'
+		url = 'http://files.minecraftforge.net/maven'
+	}
+}
+
+dependencies {
+}

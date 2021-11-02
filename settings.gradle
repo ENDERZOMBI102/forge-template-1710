@@ -1,0 +1,26 @@
+pluginManagement {
+	resolutionStrategy {
+		eachPlugin {
+			if (requested.id.namespace == 'net.minecraftforge.gradle') {
+				useModule('net.minecraftforge.gradle:ForgeGradle:5.1.23')
+			}
+		}
+	}
+	repositories {
+		maven {
+			name = 'enderepo'
+			url = 'https://repo.repsy.io/mvn/enderzombi102/plugins'
+		}
+		maven {
+			name = "sonatype"
+			url = "https://oss.sonatype.org/content/repositories/snapshots/"
+		}
+		maven {
+			name = "forge"
+			url = "http://files.minecraftforge.net/maven"
+		}
+		mavenCentral()
+	}
+}
+
+rootProject.name = 'endertweaks'
