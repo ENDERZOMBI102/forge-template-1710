@@ -1,0 +1,16 @@
+[
+	{
+		"modid": "",
+		"name": "",
+		"description": "A mod.",
+		"version": "${version}",
+		"mcversion": "${mcversion}",
+		"url": "",
+		"updateUrl": "",
+		"authorList": ["ENDERZOMBI102"],
+		"credits": "Me",
+		"logoFile": "",
+		"screenshots": [],
+		"dependencies": []
+	}
+]
